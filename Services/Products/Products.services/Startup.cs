@@ -5,7 +5,11 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using Microsoft.OpenApi.Models;
+using Products.services.Services.Abstract;
+using Products.services.Services.Concrete;
+using Products.services.Settings;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -25,8 +29,17 @@ namespace Products.services
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddScoped<ICategoryService, CategoryManager>();
+            services.AddScoped<IProductService, ProductManager>();
 
+            services.AddAutoMapper(typeof(Startup));
             services.AddControllers();
+
+            services.Configure<DatabaseSetting>(Configuration.GetSection("DatabaseSetting"));
+            services.AddSingleton<IDatabaseSetting>(sp =>
+            {
+                return sp.GetRequiredService<IOptions<DatabaseSetting>>().Value;
+            });
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Products.services", Version = "v1" });

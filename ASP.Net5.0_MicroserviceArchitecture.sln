@@ -4,10 +4,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{2B93662D-5B78-46C7-8306-5453E670AD80}"
+	ProjectSection(SolutionItems) = preProject
+		Ports.txt = Ports.txt
+	EndProjectSection
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Products", "Products", "{98AB64CC-B8A5-431A-B641-C80D3EC9B5D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Products.services", "Services\Products\Products.services\Products.services.csproj", "{1032FCA7-5595-46C8-BA65-F24A2632DEB7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Products.services", "Services\Products\Products.services\Products.services.csproj", "{1032FCA7-5595-46C8-BA65-F24A2632DEB7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{77071967-03DA-42E7-B152-EF5CAB5C4B4E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared\Shared.csproj", "{D5DA3965-9662-4FC3-AF23-C6369D0EA589}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -19,6 +26,10 @@ Global
 		{1032FCA7-5595-46C8-BA65-F24A2632DEB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1032FCA7-5595-46C8-BA65-F24A2632DEB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1032FCA7-5595-46C8-BA65-F24A2632DEB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5DA3965-9662-4FC3-AF23-C6369D0EA589}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5DA3965-9662-4FC3-AF23-C6369D0EA589}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5DA3965-9662-4FC3-AF23-C6369D0EA589}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5DA3965-9662-4FC3-AF23-C6369D0EA589}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -26,6 +37,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{98AB64CC-B8A5-431A-B641-C80D3EC9B5D8} = {2B93662D-5B78-46C7-8306-5453E670AD80}
 		{1032FCA7-5595-46C8-BA65-F24A2632DEB7} = {98AB64CC-B8A5-431A-B641-C80D3EC9B5D8}
+		{D5DA3965-9662-4FC3-AF23-C6369D0EA589} = {77071967-03DA-42E7-B152-EF5CAB5C4B4E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {728A771F-9D9F-4B07-A6DA-0C6A8C5C884A}
