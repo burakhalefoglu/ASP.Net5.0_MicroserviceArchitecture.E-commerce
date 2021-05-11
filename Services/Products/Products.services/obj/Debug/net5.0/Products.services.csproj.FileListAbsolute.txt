@@ -46,3 +46,10 @@ D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Services\Products\Products.service
 D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Services\Products\Products.services\bin\Debug\net5.0\runtimes\win\native\mongocrypt.dll
 D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Services\Products\Products.services\bin\Debug\net5.0\Shared.dll
 D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Services\Products\Products.services\bin\Debug\net5.0\Shared.pdb
+D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Services\Products\Products.services\bin\Debug\net5.0\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Services\Products\Products.services\bin\Debug\net5.0\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Services\Products\Products.services\bin\Debug\net5.0\Microsoft.IdentityModel.Logging.dll
+D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Services\Products\Products.services\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.dll
+D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Services\Products\Products.services\bin\Debug\net5.0\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Services\Products\Products.services\bin\Debug\net5.0\Microsoft.IdentityModel.Tokens.dll
+D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Services\Products\Products.services\bin\Debug\net5.0\System.IdentityModel.Tokens.Jwt.dll

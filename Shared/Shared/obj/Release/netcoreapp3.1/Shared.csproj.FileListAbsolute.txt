@@ -1,0 +1,9 @@
+D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Shared\Shared\bin\Release\netcoreapp3.1\Shared.deps.json
+D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Shared\Shared\bin\Release\netcoreapp3.1\Shared.dll
+D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Shared\Shared\bin\Release\netcoreapp3.1\Shared.pdb
+D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Shared\Shared\obj\Release\netcoreapp3.1\Shared.csprojAssemblyReference.cache
+D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Shared\Shared\obj\Release\netcoreapp3.1\Shared.AssemblyInfoInputs.cache
+D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Shared\Shared\obj\Release\netcoreapp3.1\Shared.AssemblyInfo.cs
+D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Shared\Shared\obj\Release\netcoreapp3.1\Shared.csproj.CoreCompileInputs.cache
+D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Shared\Shared\obj\Release\netcoreapp3.1\Shared.dll
+D:\GitHub\ASP.Net5.0_MicroserviceArchitecture\Shared\Shared\obj\Release\netcoreapp3.1\Shared.pdb
